@@ -1,3 +1,1 @@
 # nft.storage CLI
-
-# cli
