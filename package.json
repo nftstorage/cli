@@ -1,6 +1,6 @@
 {
   "name": "nft.storage-cli",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "The CLI to interact with api.nft.storage",
   "type": "module",
   "bin": {
