@@ -1,4 +1,4 @@
-name: Client
+name: CLI
 on:
   push:
     branches:
@@ -9,7 +9,7 @@ on:
 
 jobs:
   check:
-    name: Typecheck client
+    name: Install CLI
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
