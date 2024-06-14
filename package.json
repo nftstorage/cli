@@ -1,16 +1,20 @@
 {
   "name": "nft.storage-cli",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "The CLI to interact with api.nft.storage",
   "type": "module",
   "bin": {
-    "nft": "bin.js"
+    "nftstorage": "bin.js"
   },
   "main": "index.js",
   "scripts": {
     "start": "./bin.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "conf": "^12.0.0",
+    "enquirer": "^2.3.6",
+    "sade": "^1.8.1"
+  },
   "author": "Vasco Santos <santos.vasco10@gmail.com>",
   "license": "(Apache-2.0 OR MIT)"
 }
